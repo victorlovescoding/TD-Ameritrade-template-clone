@@ -1,0 +1,1190 @@
+*{
+    box-sizing: border-box;
+}
+.membership{
+    background-color: #087902;
+}
+.page{
+    font-family: Arial; 
+
+}
+.menu-list{
+    font-family: Arial; 
+}
+
+/* menu */
+
+.menu-list{
+    display: none;
+    width: 250px;
+    background-color: #ffffff;
+    position: fixed;
+
+}
+.menu-list .membership .menu-list-a{
+    color: #087900;
+    font-weight: bold;
+}
+
+#hamburger:checked ~ .menu-list{
+    display: block;
+    z-index: 2;
+    right: 0px;
+}
+
+#hamburger:checked ~ .page{
+    margin-right: 250px;
+    opacity: .3;
+}
+#hamburger:checked ~ .bottom{
+    opacity: .3;
+}
+#hamburger{
+    z-index: 2;
+    opacity: 2;
+}
+.menu-list img{
+    width: 80%;
+}
+.menu-list .membership{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+.menu-list .membership a{
+    display: block;
+    text-decoration: none;
+    margin: 15px 15px;
+    color: black;
+}
+.menu-list-link{
+    margin: 10px 0px;
+
+}
+.menu-list-link div a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.menu-list-link div{
+    display: flex;
+    justify-content: space-between;
+}
+.search p{
+    margin-top: 0;
+}
+.menu p{
+    margin-top: 0;
+}
+/* input */
+#hamburger{
+    position: absolute;
+    z-index: -20000;
+    left: -2000px;
+    
+}
+
+.account a{
+    display: block;
+}
+.account{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F7F7F7;
+}
+.box{
+    display: flex;
+}
+.newAccount{
+    text-decoration: none;
+    margin: 5px 7px;
+    padding-right: 5px;
+    color: #087900;
+    font-weight: bold;
+}
+.logIn{
+    text-decoration: none;
+    margin: 5px 5px;
+    color: #002337;
+}
+
+/* 導覽列 */
+.search-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.box2{
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+
+}
+.box2 a{
+    display: block;
+}
+.box2 .logo{
+    width: 100%;
+}
+
+.search{
+    margin-right: 10px;
+}
+.magnify{
+    margin-left: 10px;
+}
+.hamburger{
+    margin-left: 3px;
+    width: 50%;
+    
+}
+
+/* commission */
+.commission{
+    position: relative;
+}
+.commission img{
+    max-width: 100%;
+    height: 470px;
+    opacity:0.9;
+    filter: brightness(0.3);
+}
+.content{
+    position: absolute;
+    top: 0px;
+}
+.content .title{
+    margin: 20px 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 35px;
+}
+.content .description{
+    color: #ffffff;
+    font-size: 17px;
+    margin: 20px 18px;
+    line-height: 28px;
+}
+.open-new-account{
+    display: block;
+    text-decoration: none;
+    background-color: #40A829;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width:max-content;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-size: 20px;
+    border: 2px solid #40A829;
+         
+}
+.open-new-account:hover{
+    background-color: #ffffff;
+    color: #40A829;
+    transition: all .3s;
+
+
+}
+.learn-more:hover{
+    background-color: #40A829;
+    color: #ffffff;
+    transition: all .3s;
+
+
+}
+.learn-more{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #40A829;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: block;
+    width:max-content;
+    margin: 5px 10px;
+    font-size: 20px;
+}
+
+/* advantage */
+.advantage{
+    margin: 20px 0px;
+}
+.advantage-middle{
+    margin: 20px 0px;
+}
+.advantage img{
+    display: block;
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    padding: 15px 17px;
+    margin: auto;
+
+}
+.advantage-middle img{
+    display: block;
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    padding: 15px 17px;
+    margin: auto;
+
+}
+
+
+.advantage-content{
+    margin: 5px 20px;
+}
+.advantage-content div{
+    font-size: 32px;
+    font-weight: 600;
+}
+.advantage-content p{
+    margin: 20px 0px;
+}
+.advantage-content a{
+    display: block;
+    max-width: max-content;
+    text-decoration: none;
+    color: #40A829;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 2px solid #40A829;
+    border-radius:30px;
+    padding: 15px 20px;
+    margin: 40p 0px;
+}
+.advantage-content a:hover{
+    background-color: #40A829;
+    color: #ffffff;
+    transition: all .3s;
+}
+.advantage-content p{
+    line-height: 25px;
+}
+
+/* Why choose TD Ameritrade? */
+.choose{
+    margin: 20px 0px;
+}
+.choose-box{
+    margin: 20px 0px;
+}
+.question{
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.choose-box .reason img{
+    display: block;
+    margin: auto;
+    width: 37%;
+}
+.choose-box .reason a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #087900;
+    text-decoration: none;
+    margin: 25px 10px;
+}
+.choose-box .reason .text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 25px;
+}
+.choose-box .reason a:hover{
+    color: #000000;
+    text-decoration: underline;
+    transition: all .1s;
+}
+.bottom-link{
+    background-color: #40A829;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    max-width: max-content;
+    margin: auto;
+    border: 2px solid #40A829;
+}
+.bottom-link:hover{
+    background-color: #ffffff;
+    color: #40A829;
+    transition: all .3s;   
+}
+.bottom-text{
+    text-align: right;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.bottom-text a{
+    color: #121212;
+}
+.choose hr{
+    margin: 20px 0px;
+    background-color: #E5E5E5;
+}
+.triangle{
+    width: 0; 
+    height: 0; 
+    margin: 4px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;            
+    border-top: 7px solid #B72D1F;
+}
+.index{
+    display: flex;
+    margin: 20px 20px;
+}
+.time{
+    color: #666666;
+    margin: 20px 20px;
+    font-size: 13px;
+}
+span{
+    color: #B72D1F;
+}
+/* bottom */
+.bottom{
+    background-color: #F7F7F7;
+    margin-bottom: -25px;
+    border-top: 1px solid #666666;
+    
+}
+/* contact */
+.contact{
+    background-color: #F7F7F7;
+}
+.contact .small-logo img{
+    display: block;
+    width: 60%;
+}
+.contact .slogan{
+    margin: 10px 20px;
+    font-weight: bold;
+}
+.contact a{
+    display: block;
+}
+
+.call-us{
+    color: #666666;
+}
+.contact-way{
+    margin: 45px 20px;
+    width: 50%;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.number{
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.social-media img{
+    width: 55%;
+    border-radius: 50%;
+}
+.social-media .youtube{
+    width: 55%
+    
+}
+.contact-platform{
+    display: flex;
+    align-items: center;
+    
+}
+.contact-platform a{
+    margin: 10px 10px;
+}
+.contact hr{
+    margin-top: -30px;
+    width: 90%;
+    background-color: #EDEDED;            
+}
+
+/* language */
+.language{
+    background-color: #F7F7F7;
+}
+.language-type{
+    display: flex;
+}
+.language p{
+    margin: 10px 15px;
+    color: #666666;
+}
+.language-type div{
+    margin: 10px 15px;
+}
+.english{
+    color: #40A829;
+    font-weight: 600;
+}
+
+/* link */
+.links{
+    margin: 40px 0px;
+    background-color: #F7F7F7;
+}
+.quickLinks p{
+    margin: 15px 0px;
+    color: #666666;
+}
+.quickLinks{
+    margin: 10px 15px;
+}
+.quickLinks a{
+    display: block;
+    padding: 15px 0px;
+    font-weight: 550;
+}
+.invest p{
+    color: #666666;
+    margin: 15px 0px;
+}
+.invest{
+    margin: 40px 15px;
+}
+.invest a{
+    display: block;
+    padding: 10px 0px;
+    font-weight: 550;
+}
+.trade p{
+    color: #666666;
+    margin: 15px 0px;
+}
+.trade{
+    margin: 40px 15px;
+}
+.trade a{
+    display: block;
+    padding: 10px 0px;
+    font-weight: 550;
+}
+.service p{
+    color: #666666;
+    margin: 15px 0px;
+}
+.service{
+    margin: 40px 15px;
+}
+.service a{
+    display: block;
+    padding: 10px 0px;
+    font-weight: 550;
+}
+
+/* otherslink */
+.otherslink{
+    display: flex;
+}
+.otherslink a{
+    display: block;
+    margin: 25px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+.footer .article{
+    margin: 10px 20px;
+}
+.article a{
+    display: inline-block;
+    width: max-content;
+}
+.footer p{
+    line-height: 30px;
+    margin: 15px 0px;
+    padding-bottom: 10px;
+}
+.footer .firstParagraph{
+    font-weight: bold;
+    font-style:oblique;	
+}
+.footer .adChoices{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 20px 20px;
+}
+
+
+/* 1024px以上版本 */
+/* pricing, Account types, Funding & Transfers, Top FAQS, Open New Account */
+/* 先消失 */
+.nav-1024{
+    display: none;
+}
+.nav-1024 a{
+    display: block;
+    text-decoration: none;
+    color: #666666;
+}
+
+.nav-1024 .menulist-bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav-1024 .menulist-bottom a{
+    margin: 15px 7px;
+}
+.menulist-bottom a:hover{
+    color: #40A829;
+    text-decoration: underline;
+    transition: all .1s;
+}
+.nav-1024 .menulist-bottom .last:hover{
+    color: #000000;
+}
+.nav-1024 .menulist-bottom .last{
+    color: #087900;
+    font-weight: bold;
+}
+
+/* img, User ID, Password, Login */
+.logo-stock-login{   
+    display: flex;
+}
+.logo-1024{
+    width: 60%;
+}
+.stock-login-button{
+    display: flex;
+    justify-content: flex-end;
+    width: max-content;
+
+}
+.keyword-stock{
+    margin: 0px 30px;
+    width: 40%;
+}
+.keyword-stock input{
+    width: 100%;
+    background-color:#F7F7F7;
+    font-size: 20px;  
+    border: 1px solid #666666; 
+}
+
+.logo-stock-login img{
+    display: block;
+    width: 100%;
+    height: 90px;
+}
+.login-1024{
+    display: flex;
+    margin-right: 10px;
+}
+.login-1024 input{
+    width: 100%;
+}
+.login-1024 .password{
+    border-left: 0px;
+}
+
+.stock-login-button input{
+    height: 60px;
+    background-color:#F7F7F7;
+    color: #666666;
+    padding: 5px 10px;
+    border: 1px solid #666666; 
+    font-size: 21px;
+
+}
+.stock-login-button .login-1024{
+    height: 100%;
+}
+.userid-password{
+    width: 40%;
+}
+
+.need-login-help a{
+    display: block;
+}
+.need-login-help a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.need-login-help a{
+    font-size: 14px;
+    color: #087900;
+    font-weight: bold;
+}
+
+.menulist-top a{
+    display: block;
+    margin: 0px 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menulist-top a:hover{
+    color: #40A829;
+    text-decoration:underline;
+    transition: all .1s;
+}
+.menulist-top{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 20px;
+}
+.submit-1024 input{
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    border: 0px;
+    color: #999999;
+    font-weight: 600;
+    padding: 5px 30px;
+    height: 60%;
+    font-size: 21px;
+    margin-top: 10px;
+}
+/* 1024px以上才會出現 */
+.footer-market  .footer-market-wrap{
+    display: none;
+}
+
+
+
+
+
+/* RWD */
+@media screen and (min-width:760px) {
+    .advantage{
+        display: flex;
+        margin: 30px 0px;
+    }
+    .advantage img{
+        width: 40%;
+    }
+    .advantage .advantage-content{
+        width: 40%;
+    }
+    .advantage-middle{
+        display: flex;
+        flex-direction:row-reverse;
+        margin: 30px 60px;
+
+    }
+    .advantage-middle img{
+        width: 50%;
+    }
+    .advantage-middle .advantage-content{
+        width: 50%;
+    }
+    .advantage-content div{
+        margin-top: 40px;
+    }
+
+    /* choose */
+    .choose{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-grow: 1;
+    }
+    .choose-box{
+        width:50%;
+    }
+    .market{
+        display: flex;
+
+    }
+
+    /* bottom */
+    .slogan{
+        width: 70%;
+        text-align: center;
+    }
+    .contact-platform{
+        display: block;
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        align-items:center;
+        flex-basis: auto;
+    }
+    .social-media a{
+        display: block;
+
+    }
+    .social-media img{
+        width: 35px;
+    }
+    .social-media .youtube{
+        width: 40px;
+    }
+
+    .social-media{   
+        width: 30%;
+    }
+    .small-logo{
+        display: block;
+        width: 90%;
+    }
+    .small-logo img{
+        display: block;
+        width: 100%;
+    }
+
+    .contact-way{
+        display: flex;
+        align-items: center;
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        padding-top: 30px;
+        bottom: 0px;
+    }
+    .contact-way p{
+        margin: 0px 10px;
+    }
+
+    /* language & links */
+    .language-wrap{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .language-type{
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0px;
+        width: 80%;
+    }
+    .links a{
+        cursor: pointer;
+    }
+
+    .links a:hover{
+        color: #40A829;
+        text-decoration: underline;
+        transition: all .1s;
+    }
+    .language-link-wrap{
+        display: flex;
+    }
+    .quickLinks,
+    .invest,
+    .trade,
+    .service{
+        width: 30%;
+        margin-top: 0px;
+        margin-right: 40px;
+        margin-left: 80px;
+    }
+    .otherslink{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 40px;
+        margin-left: 70px;
+    }
+    .otherslink a{
+        display: block;
+        padding-left: 0px;
+    }
+    .otherslink div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+/* 畫面大於等於1024px，漢堡消失、漢堡裡面的選單跑出來、登入按鈕 */
+/* 指數變化跑到最下面(fixed) */
+/* commission fee區塊變成 margin= auto */
+@media screen and (min-width:1024px){
+    /* 當width超過1024且checked狀態，消失選單並且讓原內容回到置中 */
+    #hamburger:checked ~ .menu-list{
+        display: none;
+        right: 0px;
+    }
+    #hamburger:checked ~ .page{
+        margin: auto;
+    }
+    /* 復原設定 */
+
+    #hamburger:checked ~ .page{
+        background-color: white;
+    }
+    #hamburger:checked ~ .page .commission{
+        opacity: 1;
+    }
+    #hamburger:checked ~ .page .logo{
+        opacity: 1;
+    }
+    #hamburger:checked ~ .page .advantage{
+        opacity: 1;
+    }
+    #hamburger:checked ~ .page .advantage{
+        opacity: 1;
+    }
+    #hamburger:checked ~ .page .hamburger{
+        filter: invert(0%) sepia(82%) saturate(7500%) hue-rotate(32deg) brightness(87%) contrast(117%);    
+    }
+    
+
+
+
+
+
+
+
+    .menu-list{
+        display: none;
+    }
+    .nav-1024{
+        display: block;
+    }
+    .box2,
+    .account{
+        display: none;
+    }
+    .menu-list{
+        display: none;
+    }
+    #hamburger{
+        top: -5000px;
+    }
+    .menulist-bottom{
+        padding-right: 15px;
+    }
+    .stock-login-button{
+        margin-right: 30px;
+    }
+    .stock-login-button input{
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+    .keyword-stock input{
+        padding: 0px 10px;
+    }
+    .logo-1024{
+        width: 30%;
+    }
+    .stock-login-button{
+        width: 70%;
+    }
+
+    /* commission */
+    .commission{
+        margin: 0px 50px;
+    }
+    .commission img{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .content{
+        width: 40%;
+    }
+
+    /* advantage */
+    .advantage-content div{
+        font-size: 40px;
+    }
+    .advantage-content p{
+        font-size: 20px;
+        line-height: 29px;
+    }
+    /* why choose */
+    .question{
+        font-size: 45px;
+        margin: 80px 0px;
+    }
+    /* choose */
+    .choose-box .reason a{
+        font-size: 30px;
+    }
+    .choose-box .reason .text{
+        font-size: 21px;
+    }
+    .bottom-link{
+        font-size: 25px;
+    }
+    /* links */
+    .links p{
+        font-size: 20px;
+    }
+
+    /* market */
+    .market{
+        display: none;
+    }
+    .market-hr{
+        display: none;
+    }
+
+    /* footer */
+    .footer{
+        margin-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
+    /* footer market */
+    
+    .footer-market  .footer-market-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0px;
+        background-color: #F5F1EB;
+        width: 100%;
+        height: 10%;
+    }
+    .footer-market .footer-market-wrap .index div{
+        font-size: 20px;
+    }
+    .footer-market .footer-market-wrap img{
+        display: block;
+        width: 70%;
+    }
+    .footer-market .footer-market-wrap .index{
+        width: 21%;
+    }
+    .footer-market .footer-market-wrap div a{
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        color: #087900;
+        font-weight: bold;
+        margin: 0px 5px;
+    }
+    .footer-market .footer-market-wrap div,
+    .footer-market .footer-market-wrap span{
+        font-size: 22px;
+    }
+}
+/* 畫面大於等於1200px，Why choose 變成第一欄四個，第二欄三個*/
+/* Links變成Quick Limks, Invest, Trade, Service並排 */
+/* Language 移到該空間的最下面 */
+/* 保留nav、footer(fixed) */
+@media screen and (min-width:1200px){
+
+    .page{
+        max-width: 1425px;
+        margin: auto;
+    }
+    .footer-market{
+        width: 100%;
+    }
+
+    .stock-login-button input{
+        font-size: 15px;
+    }
+
+    /* nav-1024 */
+    .nav-1024{
+        max-width: 90%;
+    }
+    .nav-1024 .logo-stock-login .stock-login-button .userid-password{
+        max-width: 320px;
+    }
+    .need-login-help a{
+        width: 100%;
+    }
+    .logo-1024 img{
+        display: block;
+        margin-left: 70px;
+        
+    }
+    /* commission */
+    .commission{
+        max-width: 75%;
+        margin: auto;
+    }
+    .commission img{
+        max-width: 100%;
+        height: 550px;
+    }
+    .commission .content{
+        max-width: 75%;
+    }
+    .commission .title{
+        font-size: 45px;
+    }
+    .commission .description{
+        font-size: 20px;
+    }
+    .content .link a{
+        display: block;
+    }
+    .commission .content .link{
+        display: flex;
+        margin: 0px 10px;
+    }
+    .commission .content .link .learn-more{
+        border: 2px solid #40A829;
+        border-radius: 30px;
+    }
+    /* advantage */
+    .advantage img{
+        display: block;
+        width: 35%;
+        margin-right: 20px;
+    }
+    .advantage .advantage-content{
+        margin-left: 0px;
+        margin-right: 100px;
+        width: 45%;
+    }
+    .advantage-middle img{
+        display: block;
+        width: 40%;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .advantage-middle .advantage-content{
+        width: 40%;
+        margin-left: 190px;
+
+    }
+    .advantage-middle{
+        margin: 30px 0px;
+    }
+    .advantage-content div{
+        font-size: 40px;
+    }
+    .advantage-content p{
+        font-size: 18px;
+        font-weight:lighter;
+    }
+    /* why choose td */
+    .question{
+        font-size: 45px;
+    }
+  
+
+
+    /* choose */
+    .choose{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 0px;
+        
+    }
+    .choose-box{
+        width: 25%;
+        margin: 10px -30px;
+    }
+    .choose-box .reason img{
+        max-width: 40%;
+    }
+    .choose-box .reason a{
+        font-size: 35px;
+    }
+    .choose-box .reason div{
+        font-size: 20px;
+    }
+    .bottom-wrap{
+        max-width: 1425px;
+        margin: auto;
+    }
+    .bottom-link{
+        font-size: 25px;
+    }
+    .bottom-text{
+        font-size: 20px;
+    }
+    .footer-market .index div{
+        font-size: 20px;
+    }
+    .footer-market div a{
+        display: block;
+        font-size: 25px;
+    }
+    /* Contact */
+    .contact-platform{
+        display: flex;
+        align-items: center;
+    }
+    .contact-way{
+        align-items: flex-start;
+    }
+    .contact-way .number{
+        padding-top: 0px;
+    }
+    .slogan{
+        text-align: left;
+    }
+    /* language */
+    .language-wrap{
+        justify-content: flex-end;
+        margin-bottom: 70px;
+    }
+    .language-type{
+        flex-direction: row;
+    }
+    /* links */
+    .quickLinks,
+    .invest,
+    .trade,
+    .service{
+        width: 20%;
+        margin: 0px 10px;
+    }
+
+    /* footer */
+    .footer{
+        margin: 0px 160px;
+        
+    }
+    .article{
+        padding-bottom: 30px;
+    }
+
+    /* footer-market */
+    .footer-market{
+        width: 100%;
+    }
+    .footer-market-wrap{
+        max-width: 100%;
+        margin: auto;
+    }
+    .footer-market .footer-market-wrap .index div{
+        font-size: 16px;
+    }
+    .footer-market .footer-market-wrap .index span{
+        font-size: 14px;
+    }
+    .footer-market .footer-market-wrap div a{
+        font-size: 18px;
+    }
+
+    /* bottom */
+    .bottom{
+        background-size: 200%;
+    }
+}
